@@ -7602,3 +7602,23 @@ a.button {
   opacity: 0;
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
+
+a.html, a, a.sms {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px;
+  margin: 20px 10px;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 3px; }
+
+a.html {
+  background-color: #D95447; }
+
+a {
+  background-color: #74CDD9; }
+
+a.sms {
+  background-color: #B5D537; }
