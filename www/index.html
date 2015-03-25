@@ -5,12 +5,9 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <title></title>
 
-    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
 
-    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <!-- compiled css output -->
     <link href="css/ionic.app.css" rel="stylesheet">
-    -->
 
     <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.bundle.js"></script>
@@ -33,6 +30,19 @@
         Send message
       </button>
       <style>
+        a.html{
+          text-transform: uppercase;
+          text-decoration: none;
+          padding: 15px;
+          margin: 20px 10px;
+          text-align: center;
+          display: block;
+          background-color: #D95447;
+          font-size: 16px;
+          color: #fff;
+          border-radius: 3px;
+        }
+
         a{
           text-transform: uppercase;
           text-decoration: none;
@@ -44,10 +54,24 @@
           font-size: 16px;
           color: #fff;
           border-radius: 3px;
-          background-color: #
+        }
+
+        a.sms{
+          text-transform: uppercase;
+          text-decoration: none;
+          padding: 15px;
+          margin: 20px 10px;
+          text-align: center;
+          display: block;
+          background-color: #B5D537;
+          font-size: 16px;
+          color: #fff;
+          border-radius: 3px;
         }
       </style>
-      <a href="sms:18687967004&body=You are my bestest best developer. :)">Send Message (HTML)</a>
+      <a ng-click="shareAnywhere()">Send Anywhere</a>
+      <a class="sms">Send Message</a>
+      <a class="html" href="sms:18687967004&body=You are my bestest best developer. :)">Send Message (HTML)</a>
       </ion-content>
     </ion-pane>
   </body>
