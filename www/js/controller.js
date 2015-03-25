@@ -24,7 +24,8 @@ angular.module('starter.controllers', [])
     }
 
     $scope.shareViaTwitter = function(message, image, link) {
-        $cordovaSocialSharing.canShareVia("twitter", message, image, link).then(function(result) {
+        $cordovaSocialSharing.canShareVia("com.apple.social.twitter", message, image, link).then(function(result) {
+        // $cordovaSocialSharing.canShareVia("twitter", message, image, link).then(function(result) {
             $cordovaSocialSharing.shareViaTwitter(message, image, link);
         }, function(error) {
             alert("Cannot share on Twitter");
