@@ -25,12 +25,8 @@
         <h1 class="title">Text Message Test</h1>
       </ion-header-bar>
       <ion-content>
-      <button class="button" ng-click="shareAnywhere()">Share anywhere</button>
-      <button class="button" ng-click="sendSMS()">
-        Send message
-      </button>
       <a ng-click="shareAnywhere()">Send Anywhere</a>
-      <a class="sms">Send Message</a>
+      <a class="sms" ng-click="sendSMS()">Send Message</a>
       <a class="html" href="sms:18687967004&body=You are my bestest best developer. :)">Send Message (HTML)</a>
       </ion-content>
     </ion-pane>
