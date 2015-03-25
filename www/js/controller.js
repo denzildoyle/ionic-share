@@ -2,12 +2,12 @@ angular.module('starter.controllers', [])
 
 .controller('homeCtrl', function($scope, $cordovaSocialSharing) {
     $scope.shareAnywhere = function() {
-        $cordovaSocialSharing.share("This is your message", "This is your subject", "www/imagefile.png", "http://blog.nraboy.com");
+        $cordovaSocialSharing.share("This is your message", "This is your subject", "www/imagefile.png", "http://www.denzildoyle.me");
     }
 
     $scope.shareViaSMS = function (){
         var number = "18687967004";
-        var message = "This is a test sms";
+        var message = "Test sms!";
 
         //CONFIGURATION
         var options = {
