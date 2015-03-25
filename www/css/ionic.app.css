@@ -7603,7 +7603,7 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
-a.html, a, a.sms {
+a, a.anywhere, a.sms, a.html, a.twitter {
   text-transform: uppercase;
   text-decoration: none;
   padding: 15px;
@@ -7614,11 +7614,17 @@ a.html, a, a.sms {
   color: #fff;
   border-radius: 3px; }
 
-a.html {
-  background-color: #D95447; }
-
 a {
   background-color: #74CDD9; }
 
+a.anywhere {
+  background-color: #A5A5A5; }
+
 a.sms {
   background-color: #B5D537; }
+
+a.html {
+  background-color: #D95447; }
+
+a.twitter {
+  background-color: #00B4EE; }

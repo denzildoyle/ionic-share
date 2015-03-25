@@ -32,17 +32,27 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   color: #fff;
   border-radius: 3px;
 }
-a.html{
-	@extend %button;
-  background-color: #D95447;
-}
-
 a{
 	@extend %button;
   background-color: #74CDD9;
 }
 
+a.anywhere{
+	@extend %button;
+  background-color: #A5A5A5;
+}
+
 a.sms{
 	@extend %button;
   background-color: #B5D537;
+}
+
+a.html{
+	@extend %button;
+  background-color: #D95447;
+}
+
+a.twitter{
+	@extend %button;
+	background-color: #00B4EE
 }

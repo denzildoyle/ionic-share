@@ -25,9 +25,10 @@
         <h1 class="title">Share</h1>
       </ion-header-bar>
       <ion-content>
-      <a ng-click="shareAnywhere()">Send Anywhere</a>
-      <a class="sms" ng-click="sendSMS()">Send Message</a>
-      <a class="html" href="sms:18687967004&body=You are my bestest best developer. :)">Send Message (HTML)</a>
+        <a class="anywhere" ng-click="shareAnywhere()">Send Anywhere</a>
+        <a class="sms" ng-click="shareViaSMS()">Send Message</a>
+        <a class="html" href="sms:18687967004&body=You are my bestest best developer. :)">Send Message (HTML)</a>
+        <a class="twitter" ng-click="shareViaTwitter()">Tweet</a>
       </ion-content>
     </ion-pane>
   </body>
