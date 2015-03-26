@@ -7621,14 +7621,29 @@ a {
 a.anywhere {
   background-color: #A5A5A5; }
 
+a.anywhere:hover {
+  background-color: #989898; }
+
 a.sms {
   background-color: #B5D537; }
+
+a.sms:hover {
+  background-color: #a8c82a; }
 
 a.html {
   background-color: #D95447; }
 
+a.html:hover {
+  background-color: #d54032; }
+
 a.twitter {
   background-color: #00B4EE; }
 
+a.twitter:hover {
+  background-color: #00a1d4; }
+
 a.facebook {
   background-color: #3b5998; }
+
+a.facebook:hover {
+  background-color: #344e86; }

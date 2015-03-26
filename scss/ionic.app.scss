@@ -33,6 +33,7 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   border-radius: 3px;
   font-weight: 500;
 }
+
 a{
 	@extend %button;
   background-color: #74CDD9;
@@ -43,9 +44,17 @@ a.anywhere{
   background-color: #A5A5A5;
 }
 
+a.anywhere:hover{
+  background-color: darken(#A5A5A5, 5%);
+}
+
 a.sms{
 	@extend %button;
   background-color: #B5D537;
+}
+
+a.sms:hover{
+  background-color: darken(#B5D537, 5%);
 }
 
 a.html{
@@ -53,12 +62,24 @@ a.html{
   background-color: #D95447;
 }
 
+a.html:hover{
+  background-color: darken(#D95447, 5%);
+}
+
 a.twitter{
 	@extend %button;
 	background-color: #00B4EE
 }
 
+a.twitter:hover{
+  background-color: darken(#00B4EE, 5%);
+}
+
 a.facebook{
 	@extend %button;
 	background-color: #3b5998
+}
+
+a.facebook:hover{
+  background-color: darken(#3b5998, 5%);
 }
