@@ -33,4 +33,14 @@ angular.module('starter.controllers', [])
             alert("Cannot share on Facebook");
         });
     }
+
+    $scope.shareViaWhatsApp = function(message, image, link) {
+        $cordovaSocialSharing
+        .shareViaWhatsApp(message, image, link)
+        .then(function(result) {
+          // Success!
+        }, function(err) {
+          alert("Cannot share on WhatsApp");
+        });
+    }
 });
