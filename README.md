@@ -1,7 +1,7 @@
 ###Ionic Framework Social Share
 
 [ngcordova Social Sharing Plugin](http://ngcordova.com/docs/plugins/socialSharing/)  
-[Official Git hub documentaiton on Social Sharing Plugin](https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin)  
+[Official Git hub documentation on Social Sharing Plugin](https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin)  
 
 Current Functionality  
   

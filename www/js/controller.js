@@ -61,6 +61,15 @@ angular.module('starter.controllers', [])
         });
     }
 
+        <li>Share via Instagram</li>
+    <li>Share via Email</li>
+    <li>Share via HTML Email</li>
+    <li>Other To Do Items</li>
+    <li>Add Material Design</li>
+    <li>Add Different button colours</li>
+    <li>Add Google Analytics</li>
+    <li>Add new Android Browser</li>
+
     // Share via WhatsApp
     $scope.shareViaWhatsApp = function(message, image, link) {
         $cordovaSocialSharing
