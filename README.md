@@ -21,7 +21,7 @@ To Do
   
 Other To Do Items
 
-- Add Meterial Design
+- Add Material Design
 - Add Different button colors
 - Add Google Analytics
 - Add new Android Browser
