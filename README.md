@@ -24,5 +24,4 @@ Other To Do Items
 - Add Different button colors
 - Add Google Analytics
 - Add new Android Browser
-- Change Share messages
 
