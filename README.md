@@ -11,6 +11,7 @@ Current Functionality
 - Share via connected Twitter account
 - Share via Facebook
 - Share via WhatsApp
+- Toast notification
   
 To Do
   
