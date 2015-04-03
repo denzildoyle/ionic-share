@@ -2,7 +2,13 @@ angular.module('starter.controllers', [])
 
 .controller('homeCtrl', function($scope, $cordovaSocialSharing) {
     $scope.shareAnywhere = function() {
-        $cordovaSocialSharing.share("This is your message", "This is your subject", "www/imagefile.png", "http://www.denzildoyle.me");
+        $cordovaSocialSharing
+        .share(message, subject, file, link)
+        .then(function(result) {
+          // Success!
+        }, function(err) {
+          alert("Cannot share via share sheet");
+        });
     }
 
     $scope.shareViaSMS = function (message, number){
