@@ -1,7 +1,7 @@
 ###Ionic Framework Social Share
 
-[http://ngcordova.com/docs/plugins/socialSharing/](ngcordova Social Sharing Plugin)  
-[https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin](Official Git hub documentaiton on Social Sharing Plugin)  
+[ngcordova Social Sharing Plugin](http://ngcordova.com/docs/plugins/socialSharing/)  
+[Official Git hub documentaiton on Social Sharing Plugin](https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin)  
 
 Current Functionality  
   
@@ -11,7 +11,7 @@ Current Functionality
 - Share via connected Twitter account
 - Share via Facebook
 - Share via WhatsApp
-- Toast notification
+- [Toast notification](https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin)
   
 To Do
   
