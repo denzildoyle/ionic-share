@@ -8,7 +8,11 @@ angular.module('starter.controllers', [])
         .then(function(result) {
           // Success!
         }, function(err) {
-          alert("Cannot share via share sheet");
+            $cordovaToast.showLongBottom("Cannot share via share sheet").then(function(success) {
+                // success
+            }, function (error) {
+                // error
+            });
         });
     }
 
@@ -19,7 +23,11 @@ angular.module('starter.controllers', [])
         .then(function(result) {
           // Success!
         }, function(err) {
-            alert("Cannot send SMS");
+            $cordovaToast.showLongBottom("Cannot send SMS").then(function(success) {
+                // success
+            }, function (error) {
+                // error
+            });
         });
     }
 
@@ -30,7 +38,11 @@ angular.module('starter.controllers', [])
         .then(function(result) {
           // Success!
         }, function(err) {
-            alert("Cannot share on Twitter");
+            $cordovaToast.showLongBottom("Cannot share on Twitter").then(function(success) {
+                // success
+            }, function (error) {
+                // error
+            });
         });
     }
 
@@ -41,7 +53,11 @@ angular.module('starter.controllers', [])
         .then(function(result) {
           // Success!
         }, function(err) {
-            alert("Cannot share on Facebook");
+            $cordovaToast.showLongBottom("Cannot share on Facebook").then(function(success) {
+                // success
+            }, function (error) {
+                // error
+            });
         });
     }
 
@@ -52,7 +68,11 @@ angular.module('starter.controllers', [])
         .then(function(result) {
           // Success!
         }, function(err) {
-          alert("Cannot share on WhatsApp");
+            $cordovaToast.showLongBottom("Cannot share to WhatsApp").then(function(success) {
+                // success
+            }, function (error) {
+                // error
+            });
         });
     }
 });
