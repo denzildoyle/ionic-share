@@ -2,17 +2,13 @@ angular.module('starter.controllers', [])
 
 .controller('homeCtrl', function($scope, $cordovaSocialSharing) {
     // Share via native share sheet
-    $scope.shareAnywhere = function() {
+    $scope.shareAnywhere = function(message, subject, file, link) {
         $cordovaSocialSharing
         .share(message, subject, file, link)
         .then(function(result) {
           // Success!
         }, function(err) {
-            $cordovaToast.showLongBottom("Cannot share via share sheet").then(function(success) {
-                // success
-            }, function (error) {
-                // error
-            });
+            alert("Something happened");
         });
     }
 
@@ -23,11 +19,7 @@ angular.module('starter.controllers', [])
         .then(function(result) {
           // Success!
         }, function(err) {
-            $cordovaToast.showLongBottom("Cannot send SMS").then(function(success) {
-                // success
-            }, function (error) {
-                // error
-            });
+            alert("Cannot send SMS");
         });
     }
 
@@ -38,11 +30,7 @@ angular.module('starter.controllers', [])
         .then(function(result) {
           // Success!
         }, function(err) {
-            $cordovaToast.showLongBottom("Cannot share on Twitter").then(function(success) {
-                // success
-            }, function (error) {
-                // error
-            });
+            alert("Cannot share on Twitter");
         });
     }
 
@@ -53,22 +41,9 @@ angular.module('starter.controllers', [])
         .then(function(result) {
           // Success!
         }, function(err) {
-            $cordovaToast.showLongBottom("Cannot share on Facebook").then(function(success) {
-                // success
-            }, function (error) {
-                // error
-            });
+            alert("Cannot share on Facebook");
         });
     }
-
-        <li>Share via Instagram</li>
-    <li>Share via Email</li>
-    <li>Share via HTML Email</li>
-    <li>Other To Do Items</li>
-    <li>Add Material Design</li>
-    <li>Add Different button colours</li>
-    <li>Add Google Analytics</li>
-    <li>Add new Android Browser</li>
 
     // Share via WhatsApp
     $scope.shareViaWhatsApp = function(message, image, link) {
@@ -77,11 +52,18 @@ angular.module('starter.controllers', [])
         .then(function(result) {
           // Success!
         }, function(err) {
-            $cordovaToast.showLongBottom("Cannot share to WhatsApp").then(function(success) {
-                // success
-            }, function (error) {
-                // error
-            });
+            alert("Cannot share on WhatsApp");
+        });
+    }
+
+    // Share via Email
+    $scope.shareViaEmail = function(message, subject, toArr, bccArr, file){
+        $cordovaSocialSharing
+        .shareViaEmail(message, subject, toArr, bccArr, file)
+        .then(function(result) {
+          // Success!
+        }, function(err) {
+            alert("Cannot share Email");
         });
     }
 });
