@@ -68,7 +68,7 @@ a.html:hover{
 
 a.twitter{
 	@extend %button;
-	background-color: #00B4EE
+	background-color: #00B4EE;
 }
 
 a.twitter:hover{
@@ -77,9 +77,27 @@ a.twitter:hover{
 
 a.facebook{
 	@extend %button;
-	background-color: #3b5998
+	background-color: #3b5998;
 }
 
 a.facebook:hover{
   background-color: darken(#3b5998, 5%);
+}
+
+a.whatsapp{
+  @extend %button;
+  background-color: #54DA24;
+}
+
+a.whatsapp:hover{
+  background-color: darken(#54DA24, 5%);
+}
+
+a.email{
+  @extend %button;
+  background-color: #DA5E28;
+}
+
+a.email:hover{
+  background-color: darken(#DA5E28, 5%);
 }

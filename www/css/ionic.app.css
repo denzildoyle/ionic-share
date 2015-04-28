@@ -7603,7 +7603,7 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
-a, a.anywhere, a.sms, a.html, a.twitter, a.facebook {
+a, a.anywhere, a.sms, a.html, a.twitter, a.facebook, a.whatsapp, a.email {
   text-transform: uppercase;
   text-decoration: none;
   padding: 15px;
@@ -7647,3 +7647,15 @@ a.facebook {
 
 a.facebook:hover {
   background-color: #344e86; }
+
+a.whatsapp {
+  background-color: #54DA24; }
+
+a.whatsapp:hover {
+  background-color: #4cc420; }
+
+a.email {
+  background-color: #DA5E28; }
+
+a.email:hover {
+  background-color: #c65422; }
